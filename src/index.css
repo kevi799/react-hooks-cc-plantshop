@@ -112,6 +112,16 @@ input:focus {
 .card button {
   margin-top: 0.5rem;
 }
+button.sold-out {
+  background-color: gray;
+  color: white;
+  cursor: not-allowed;
+}
+
+button.primary {
+  background-color: green;
+  color: white;
+}
 
 @media (min-width: 768px) {
   .cards {
