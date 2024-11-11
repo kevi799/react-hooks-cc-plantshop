@@ -23,7 +23,7 @@ function NewPlantForm({ onAddPlant }) {
     })
       .then((response) => response.json())
       .then((addedPlant) => {
-        onAddPlant(addedPlant); // Add the newly added plant to the state
+        onAddPlant(addedPlant);
         setName("");
         setImage("");
         setPrice("");
